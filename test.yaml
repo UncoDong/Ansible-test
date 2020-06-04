@@ -7,7 +7,7 @@
     - name: clone repository
       git:
         repo: https://github.com/UncoDong/Ansible-test.git
-        dest: "/workspace"
+        dest: "/workspace/Ansibletest"
         update: yes
         force: yes
 
