@@ -1,0 +1,21 @@
+---
+- hosts: 0.0.0.0
+
+  tasks:
+
+
+    - name: clone repository
+      git:
+        repo: https://github.com/UncoDong/Ansible-test.git
+        dest: "/workspace"
+        update: yes
+        force: yes
+
+
+    - name: install ftp
+      shell: "cd /workspace"
+
+    - name: install nginx
+      shell: "pwd"
+
+  
