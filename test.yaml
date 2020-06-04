@@ -4,7 +4,7 @@
   tasks:
 
 
-    - name: clone repository
+    - name: test github
       git:
         repo: https://github.com/UncoDong/Ansible-test.git
         dest: "/workspace/Ansibletest"
@@ -12,10 +12,10 @@
         force: yes
 
 
-    - name: install ftp
+    - name: test cd
       shell: "cd /workspace"
 
-    - name: install nginx
+    - name: test pwd
       shell: "pwd"
 
   
